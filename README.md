@@ -33,21 +33,27 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-### `Ui journey`
+### `Problem statement`
+
+`Show vehicle information of selected brand and model. Show appropriate errors whenever
+there is no data or api call fails while fetching data.` 
+
+### `UI Journey`
 
 After opening local [http://localhost:3000](http://localhost:3000)
 
 ```
-1. Select a brand from select list.
-2. Select a model from select list.
-3. Will show details of each variant of vehicle. 
+1. Select a brand from brand dropdown.
+2. Select a model from model dropdown.
+3. Will show details of each variant of selected brand and model.
+4. Incase of no data appropriate message will be shown.  
 ```
 
-### `Requirement builds`
+### `Requirement built`
 ```
 1. Added unit test cases.
-2. State management used react-context.
-3. Mobile first and desktop friendly. 
+2. Used react-context for state management.
+3. Mobile first and desktop friendly UI. 
 4. Build own styles.
 ```
 
