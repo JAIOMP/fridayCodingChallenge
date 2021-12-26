@@ -31,7 +31,7 @@ const VehicleDetails = () => {
 
     return (
         <div className="vehicle-details-container">
-            {error === '' && vehicleDetails.map((vehicle) => <div className="vehicle-details" key={vehicle.make}>
+            {error === '' && vehicleDetails.map((vehicle, index) => <div className="vehicle-details" key={`${vehicle.make}${index}`}>
                 <Row value={vehicle.make} label="Brand"/>
                 <Row value={vehicle.model} label="Model"/>
                 <Row value={vehicle.enginePowerPS} label="Engine power in ps"/>
