@@ -1,0 +1,36 @@
+.row {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 10px 5px;
+}
+.row:nth-child(odd) {
+    background-color: #ede9e9;
+}
+
+.vehicle-details-container {
+    display: grid;
+    gap: 20px;
+    margin: 0 20px;
+}
+
+.vehicle-details {
+    padding: 10px;
+    border: 2px solid lightgrey;
+}
+
+.row-label {
+    font-weight: 600;
+}
+
+@media only screen and (min-width: 720px) {
+    .vehicle-details-container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .vehicle-details-container {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}

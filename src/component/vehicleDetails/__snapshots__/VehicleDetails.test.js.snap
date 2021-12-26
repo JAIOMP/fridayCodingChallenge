@@ -1,0 +1,112 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Vehicle Details should render Vehicles 1`] = `
+<div>
+  <div
+    class="vehicle-details-container"
+  >
+    <div
+      class="vehicle-details"
+    >
+      <div
+        class="row"
+      >
+        <span
+          class="row-label"
+        >
+          Brand
+        </span>
+        <span
+          class="row-value"
+        >
+          FORD
+        </span>
+      </div>
+      <div
+        class="row"
+      >
+        <span
+          class="row-label"
+        >
+          Model
+        </span>
+        <span
+          class="row-value"
+        >
+          Edge
+        </span>
+      </div>
+      <div
+        class="row"
+      >
+        <span
+          class="row-label"
+        >
+          Engine power in ps
+        </span>
+        <span
+          class="row-value"
+        >
+          60
+        </span>
+      </div>
+      <div
+        class="row"
+      >
+        <span
+          class="row-label"
+        >
+          Engine power in kw
+        </span>
+        <span
+          class="row-value"
+        >
+          44
+        </span>
+      </div>
+      <div
+        class="row"
+      >
+        <span
+          class="row-label"
+        >
+          Fuel type
+        </span>
+        <span
+          class="row-value"
+        >
+          Benzin
+        </span>
+      </div>
+      <div
+        class="row"
+      >
+        <span
+          class="row-label"
+        >
+          Body type
+        </span>
+        <span
+          class="row-value"
+        >
+          Limousine
+        </span>
+      </div>
+      <div
+        class="row"
+      >
+        <span
+          class="row-label"
+        >
+          Engine capacity
+        </span>
+        <span
+          class="row-value"
+        >
+          1299
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;

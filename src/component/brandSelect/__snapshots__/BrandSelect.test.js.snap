@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BrandSelect should render BrandSelect 1`] = `
+<div>
+  <div
+    class="select-item-container"
+  >
+    <label
+      class="select-label"
+      data-testid="select-item"
+      for="brand"
+    >
+      Please select your 
+      <strong>
+        brand
+      </strong>
+      :
+    </label>
+    <select
+      data-testid="select"
+      id="brand-list"
+    >
+      <option>
+        --Please choose an option--
+      </option>
+      <option
+        data-testid="select-option"
+        value="ALFA ROMEO"
+      >
+        ALFA ROMEO
+      </option>
+      <option
+        data-testid="select-option"
+        value="AUDI"
+      >
+        AUDI
+      </option>
+      <option
+        data-testid="select-option"
+        value="AUSTIN"
+      >
+        AUSTIN
+      </option>
+      <option
+        data-testid="select-option"
+        value="BARKAS"
+      >
+        BARKAS
+      </option>
+      <option
+        data-testid="select-option"
+        value="BMW"
+      >
+        BMW
+      </option>
+      <option
+        data-testid="select-option"
+        value="CADILLAC"
+      >
+        CADILLAC
+      </option>
+      <option
+        data-testid="select-option"
+        value="CHEVROLET"
+      >
+        CHEVROLET
+      </option>
+    </select>
+  </div>
+</div>
+`;
